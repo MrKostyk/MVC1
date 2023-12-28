@@ -111,7 +111,7 @@ class TaskController {
         this.taskView = taskView;
     }
 
-    // Метод для додавання завдання
+
     public synchronized void addTask(String title) {
         Task newTask = new Task(title);
         tasks.add(newTask);
